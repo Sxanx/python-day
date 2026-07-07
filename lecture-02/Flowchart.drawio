@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="azG0nI75ZKdx4uRRnzKZ" name="Page-1">
+        <mxGraphModel dx="1975" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=light-dark(#000000, #121212);fillColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Display Message:&lt;div&gt;&quot;Enter the width of the rectangle&quot;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;strokeColor=light-dark(#000000, #121212);fillColor=#9999FF;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="120" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Read width input" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fillColor=#FFFF99;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="220" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Display Message:&lt;div&gt;&quot;Enter the hight of the rectangle&quot;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;strokeColor=light-dark(#000000, #121212);fillColor=#9999FF;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Read hight input" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fillColor=#FFFF99;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="430" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.508;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Calculate area: area = width * heght" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+                    <mxGeometry x="262.5" y="530" width="275" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Display Message:&lt;div&gt;&quot;The area of the rectangle is&quot; , area&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;strokeColor=light-dark(#000000, #121212);fillColor=#9999FF;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="590" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=light-dark(#000000, #121212);fillColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="14" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
